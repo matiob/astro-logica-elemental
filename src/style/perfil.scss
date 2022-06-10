@@ -1,0 +1,39 @@
+#perfil .container{
+    text-align: center;
+    padding: 100px 12px;
+    
+}
+
+@media (min-width: 850px){
+    #perfil .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #perfil .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #perfil h2{
+        margin-top: 0px;
+    }
+
+    #perfil .img-container{
+        background-image: url("../assets/perfil.jpeg");
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px; 
+    }
+
+}
+
+.aboutMe {
+    text-align: justify;
+}

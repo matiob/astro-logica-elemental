@@ -3,6 +3,7 @@ import es from "../assets/spain.png";
 import en from "../assets/united-kingdom.png";
 import {FormattedMessage} from 'react-intl';
 import {langContext} from '../context/language';
+import instagram  from '../assets/instagram.svg';
 
 const Navbar = () => {
   const idioma = useContext(langContext);
@@ -25,6 +26,9 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      <a href="https://www.instagram.com/astro_logica_elemental/">
+        <img style="margin:5px" src={instagram} width="30" height="30" alt="instagram" className="logo"/>
+      </a>
     </nav>
   )
 }

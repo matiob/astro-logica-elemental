@@ -27,7 +27,7 @@ const Navbar = () => {
         </div>
       </div>
       <a href="https://www.instagram.com/astro_logica_elemental/">
-        <img src={instagram} width="30" height="30" alt="instagram" className="logo"/>
+        instagram <img src={instagram} alt="instagram"/>
       </a>
     </nav>
   )

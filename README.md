@@ -1,10 +1,9 @@
-# # SPA referred to astrology
+# Astro SPA
 
-### Objective
+Welcome to the Astro SPA App project. This application is a Single Page App developed using vanilla web technologies.
+The web intended to inform about astrology and its uses through consultations via mail.
 
-Single Page Aplication intended to inform about astrology and its uses through consultations via mail.
-
-### Stack
+### Technologies Used
 
 <p align="left">
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="Javascript" /></a>
@@ -19,3 +18,10 @@ Single Page Aplication intended to inform about astrology and its uses through c
 - Change of language.
 - Sending forms by mail.
 - Responsive.
+
+>[!TIP]
+>To run the project locally, follow these steps:
+>1. Clone this repository: `git clone https://github.com/matiob/astro-logica-elemental.git`
+>2. Run `npm i` and then `npm start`.
+
+We hope you enjoy exploring the project!
